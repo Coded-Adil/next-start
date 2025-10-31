@@ -1,6 +1,7 @@
 import Hello from "../../components/hello";
 
 const Home = () => {
+  throw new Error("Test error in root page");
   console.log("What type of component am I?");
   return (
     <main>
